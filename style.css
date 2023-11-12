@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -73,14 +73,14 @@ footer {
 }
 
 /* Fancy Box */
-.linea{
+.linea {
     background: #550b51;
     height: 5px;
     width: 100%;
     display: block;
 }
 
-.galeria{
+.galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     width: 95%;
@@ -90,14 +90,14 @@ footer {
     overflow: hidden;
 }
 
-.galeria > a{
+.galeria>a {
     display: block;
     position: relative;
     overflow: hidden;
-    
+
 }
 
-.galeria img{
+.galeria img {
     width: 100%;
     vertical-align: top;
     height: 300px;
@@ -105,8 +105,7 @@ footer {
     transition: transform 0.5s;
 }
 
-.galeria a:hover img{
+.galeria a:hover img {
     filter: blur(2px);
     transform: rotate(10deg) scale(1.3);
 }
- 
