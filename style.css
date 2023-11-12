@@ -1,9 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #111; /* Color de fondo oscuro */
-    color: #fff; /* Color del texto */
+    background-color: #111;
+    color: #fff;
 }
 
 header {
@@ -53,6 +59,7 @@ article {
 }
 
 
+
 /* AGREGAR CARRUSEL */
 
 footer {
@@ -63,4 +70,42 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Fancy Box */
+.linea{
+    background: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
 }
