@@ -77,16 +77,6 @@ nav img {
 }
 
 
-section {
-    padding: 20px;
-}
-
-article {
-    margin-bottom: 30px;
-}
-
-
-
 /* AGREGAR CARRUSEL */
 
 footer {
@@ -219,6 +209,7 @@ footer {
     margin-right: 20px;
 }
 
+
 #slider {
     overflow: hidden;
 }
@@ -289,9 +280,9 @@ footer {
 
 .imgt {
     display: flex;
+
 }
 
-.imght h1{
-    display: contents;
-
+div{
+    margin-bottom: 30px;
 }
