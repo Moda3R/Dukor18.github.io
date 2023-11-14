@@ -274,35 +274,19 @@ footer {
     }
 }
 
-.text-boxes{
+.text-boxes {
     display: flex;
     justify-content: center;
 }
 
-.text-boxes p{
+.text-boxes p {
     padding: 20px;
 }
 
-.text1{
+.text1 {
     margin-left: 50px;
 }
 
-.container{
-    width: 100%;
-    min-height: 100vh;
+.imgt {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 8%;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-    
-}
-
-.gallery img{
-    width: 100%;
 }
