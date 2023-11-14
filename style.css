@@ -167,11 +167,17 @@ footer {
 
 .icon-container {
     display: flex;
-    justify-content: space-between;
     margin-top: 20px;
+    justify-content: center;
+    
 }
 
 .icon {
     font-size: 30px;
-    margin-right: 10px;
+    margin-right: 50px;
+}
+
+.qr{
+    font-size: 100px;
+    margin-right: 50px;
 }
