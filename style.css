@@ -290,3 +290,8 @@ footer {
 .imgt {
     display: flex;
 }
+
+.imght h1{
+    display: contents;
+
+}
