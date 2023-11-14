@@ -129,6 +129,23 @@ footer {
     transform: scale(1);
 }
 
+.light-box .lightbox-content {
+    text-align: center;
+}
+
+.light-box img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    margin-top: 35px;
+}
+
+.light-box p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
 .close {
     display: block;
     position: absolute;
