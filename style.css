@@ -273,3 +273,17 @@ footer {
         left: -400%;
     }
 }
+
+.text-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.text-boxes p{
+    padding: 20px;
+    position: static;
+}
+
+.text1{
+    margin-left: 50px;
+}
