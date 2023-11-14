@@ -19,7 +19,7 @@ header {
     text-align: center;
     padding: 1em;
     position: relative;
-    top: 80px;
+    top: 70px;
 }
 
 nav {
@@ -48,7 +48,6 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    size: 100px;
 }
 
 
